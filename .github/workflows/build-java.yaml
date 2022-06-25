@@ -11,9 +11,8 @@ jobs:
 
     - name: Download image
       uses: ishworkh/docker-image-artifact-download@v1
-   
-
-  build:
+  
+  
     runs-on: ubuntu-latest
 
     steps:
