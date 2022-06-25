@@ -2,6 +2,9 @@ name: Java build
 
 on: [push]
 
+- name: Build and push Docker images
+  uses: docker/build-push-action@v3.0.0
+
 jobs:
   build:
     runs-on: ubuntu-latest
